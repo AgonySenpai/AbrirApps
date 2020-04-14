@@ -10,7 +10,8 @@ type IRespuesta = {
     Las opciones sirve para mostrarse al usuario y el valor para ejecutar la app
  */
 const mapApps = new Map([
-    ['Microsoft Edge', String.raw`C:\Users\SweetSorrow\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe`]
+    ['Microsoft Edge', String.raw`C:\Users\SweetSorrow\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe`],
+    ['Windows Terminal', 'wt']
 ])
 
 async function start() {
